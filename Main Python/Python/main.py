@@ -1,0 +1,2 @@
+myname = "da"
+print(myname)
