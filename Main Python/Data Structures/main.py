@@ -1,5 +1,5 @@
 from implementation import *
-pi_day(months)
+pi()
 fruit()
 use()
 relations(list)

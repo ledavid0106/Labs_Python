@@ -1,10 +1,11 @@
 #Task1 Dictionary, Set, and Tuple
 #1 tuple
-months = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
-def pi_day(months):
-    if months.index("March"):
-        print("March has National Pi Day!")
+def pi():
+    months = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+    print(months[2])
 
+
+# the task wants you to index the tuple (just like a list) and print the indexed value ("March")
 
 #2 set
 fruits_and_vegi = {"Apples", "Oranges", "Blueberry", "Cabbage", "Lettuce"}
