@@ -12,19 +12,20 @@
 
 from customer import *
 from product import *
-
+from shopping_cart import *
 david = Customer("David")
+# dav = ShoppingCart()
+print(david.shopping_cart)
 print(david.name)
 
-david.add_cart()
-print(david.shoppingcart)
+x = 0
+while x < 3:
+    david.add_cart()
+    x += 1
+# print(david.shoppingcart)
+print()
 
+david.view_all()
 
-# david.add_cart()
-# david.add_cart()
-# david.view_all()
-# total = ShoppingCart.current_total()
-# print(total)
-# ShoppingCart.empty_cart()
-# print(Customer.shoppingcar)
+david.ShoppingCart()empty_cart()
 

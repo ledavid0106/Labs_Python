@@ -5,17 +5,20 @@ class ShoppingCart:
         
     def current_total(self):
         count = 0
-        for x in self.products:
+        for count in self.products:
             count += 1
-        return count
+        print(count)
 
-    def add_new(self):
+    def add_new(self, ):
         new = input("What product would you like to add?\n")
+        self.products.append(new)
         return new
-        # self.products.append(new)
     
     def empty_cart(self):
         self.products = []
+# test = ShoppingCart()
+# test.add_new()
+# print(test.products)
 # app = ShoppingCart()
 # print(app.products)
 # app.add_new()
